@@ -40,7 +40,7 @@ public class Assignment1 {
             }
             System.out.println("Do you want to continue (y/n)?");
             choice1 = sc.next();
-        } while (choice1.equalsIgnoreCase("y"));
+        } while (choice1.equals("y"));
 
         con.close();
         sc.close();
